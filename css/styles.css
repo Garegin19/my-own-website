@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 1em;
+}
+
+h1 {
+    font-family: 'Black Ops One', cursive;
+    width: 10%;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: 100px;
+    z-index: 3;
+}
+
+h2 {
+    font-family: 'Roboto', cursive;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: 110px;
+    z-index: 3;
+}
+
+h3 {
+    font-family: 'Black Ops One', cursive;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+hr {
+    border: dotted #696969 8px;
+    border-bottom: none;
+    width: 8%
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    padding-bottom: 35px;
+}
+
+.top-container {
+    background-color: #C9EEFF;
+}
+
+.middle-container {
+    padding-bottom: 25px;
+}
+
+.bottom-container {
+    padding: 35px 0 35px 0;
+    background-color: #C9EEFF;
+}
+
+.profile {
+    padding-bottom: 35px;
+}
+
+.skills {
+    padding-top: 35px;
+}
+
+.imga {
+    position: absolute;
+    top: 220px;
+    left: 470px;
+}
+
+.imgb {
+    position: absolute;
+    top: 250px;
+    right: 450px;
+    z-index: 2;
+}
+
+.imgc {
+    position: absolute;
+    top: 320px;
+    right: 650px;
+    z-index: 2;
+}
+
+.imgd {
+    position: absolute;
+    top: 100px;
+    left: 650px;
+}
+
+.img_m {
+    position: relative;
+    z-index: 1;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 70px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.my_photo {
+    width: 25%;
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
+
+.skill_img1 {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill_img2 {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    padding-top: 35px;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 50px auto 60px;
+}
+
+.btn {
+  background: #696969;
+  background-image: -webkit-linear-gradient(top, #c2c1eb, #696969);
+  background-image: -moz-linear-gradient(top, #c2c1eb, #696969);
+  background-image: -ms-linear-gradient(top, #c2c1eb, #696969);
+  background-image: -o-linear-gradient(top, #c2c1eb, #696969);
+  background-image: linear-gradient(to bottom, #c2c1eb, #696969);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: 'Black Ops One', cursive;
+  color: #fafafa;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  border: solid #696969 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2fa7ed;
+  background-image: -webkit-linear-gradient(top, #2fa7ed, #05151f);
+  background-image: -moz-linear-gradient(top, #2fa7ed, #05151f);
+  background-image: -ms-linear-gradient(top, #2fa7ed, #05151f);
+  background-image: -o-linear-gradient(top, #2fa7ed, #05151f);
+  background-image: linear-gradient(to bottom, #2fa7ed, #05151f);
+  text-decoration: none;
+}
+
+a {
+    color: #696969;
+    margin: 10px 20px;
+    font-family: 'Roboto', cursive;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
